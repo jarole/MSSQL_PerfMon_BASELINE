@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<DataCollectorSet>
+	<Status>0</Status>
+	<Duration>86280</Duration>
+	<Description>
+	</Description>
+	<DescriptionUnresolved>
+	</DescriptionUnresolved>
+	<DisplayName>
+	</DisplayName>
+	<DisplayNameUnresolved>
+	</DisplayNameUnresolved>
+	<SchedulesEnabled>-1</SchedulesEnabled>
+	<LatestOutputLocation>D:\MSSQL_Baseline\PerfMon\MSSQL_perf\20090103-000050</LatestOutputLocation>
+	<Name>MSSQL_baseline</Name>
+	<OutputLocation>D:\MSSQL_Baseline\PerfMon\MSSQL_perf\20090103-000051</OutputLocation>
+	<RootPath>D:\MSSQL_Baseline\PerfMon\MSSQL_perf</RootPath>
+	<Segment>-1</Segment>
+	<SegmentMaxDuration>86280</SegmentMaxDuration>
+	<SegmentMaxSize>100</SegmentMaxSize>
+	<SerialNumber>51</SerialNumber>
+	<Server>
+	</Server>
+	<Subdirectory>
+	</Subdirectory>
+	<SubdirectoryFormat>1</SubdirectoryFormat>
+	<SubdirectoryFormatPattern>yyyyMMdd\-NNNNNN</SubdirectoryFormatPattern>
+	<Task>
+	</Task>
+	<TaskRunAsSelf>0</TaskRunAsSelf>
+	<TaskArguments>
+	</TaskArguments>
+	<TaskUserTextArguments>
+	</TaskUserTextArguments>
+	<UserAccount>SYSTEM</UserAccount>
+	<Security>O:BAG:S-1-5-21-195537561-3281463525-3850440477-513D:AI(A;;FA;;;SY)(A;;FA;;;BA)(A;;FR;;;LU)(A;;0x1301ff;;;S-1-5-80-2661322625-712705077-2999183737-3043590567-590698655)(A;ID;FA;;;SY)(A;ID;FA;;;BA)(A;ID;0x1200ab;;;LU)(A;ID;FR;;;AU)(A;ID;FR;;;LS)(A;ID;FR;;;NS)</Security>
+	<StopOnCompletion>0</StopOnCompletion>
+	<PerformanceCounterDataCollector>
+		<DataCollectorType>0</DataCollectorType>
+		<Name>DataCollector01</Name>
+		<FileName>MSSQL_</FileName>
+		<FileNameFormat>3</FileNameFormat>
+		<FileNameFormatPattern>yyyyMMdd</FileNameFormatPattern>
+		<LogAppend>0</LogAppend>
+		<LogCircular>0</LogCircular>
+		<LogOverwrite>0</LogOverwrite>
+		<LatestOutputLocation>D:\MSSQL_Baseline\PerfMon\MSSQL_perf\20090103-000050\MSSQL_20090103.tsv</LatestOutputLocation>
+		<DataSourceName>
+		</DataSourceName>
+		<SampleInterval>60</SampleInterval>
+		<SegmentMaxRecords>0</SegmentMaxRecords>
+		<LogFileFormat>1</LogFileFormat>
+		<Counter>\Paging File(_Total)\% Usage</Counter>
+		<Counter>\Paging File(_Total)\% Usage Peak</Counter>
+		<Counter>\PhysicalDisk(*)\Current Disk Queue Length</Counter>
+		<Counter>\Processor(_Total)\% Privileged Time</Counter>
+		<Counter>\Processor(_Total)\% Processor Time</Counter>
+		<Counter>\SQLServer:Buffer Manager\Buffer cache hit ratio</Counter>
+		<Counter>\SQLServer:Buffer Manager\Page life expectancy</Counter>
+		<Counter>\SQLServer:General Statistics\User Connections</Counter>
+		<Counter>\SQLServer:Locks(_Total)\Lock Wait Time (ms)</Counter>
+		<Counter>\SQLServer:Locks(_Total)\Lock Waits/sec</Counter>
+		<Counter>\SQLServer:Locks(_Total)\Number of Deadlocks/sec</Counter>
+		<Counter>\SQLServer:SQL Statistics\Batch Requests/sec</Counter>
+		<Counter>\SQLServer:SQL Statistics\SQL Compilations/sec</Counter>
+		<Counter>\SQLServer:SQL Statistics\SQL Re-Compilations/sec</Counter>
+		<CounterDisplayName>\Paging File(_Total)\% Usage</CounterDisplayName>
+		<CounterDisplayName>\Paging File(_Total)\% Usage Peak</CounterDisplayName>
+		<CounterDisplayName>\PhysicalDisk(*)\Current Disk Queue Length</CounterDisplayName>
+		<CounterDisplayName>\Processor(_Total)\% Privileged Time</CounterDisplayName>
+		<CounterDisplayName>\Processor(_Total)\% Processor Time</CounterDisplayName>
+		<CounterDisplayName>\SQLServer:Buffer Manager\Buffer cache hit ratio</CounterDisplayName>
+		<CounterDisplayName>\SQLServer:Buffer Manager\Page life expectancy</CounterDisplayName>
+		<CounterDisplayName>\SQLServer:General Statistics\User Connections</CounterDisplayName>
+		<CounterDisplayName>\SQLServer:Locks(_Total)\Lock Wait Time (ms)</CounterDisplayName>
+		<CounterDisplayName>\SQLServer:Locks(_Total)\Lock Waits/sec</CounterDisplayName>
+		<CounterDisplayName>\SQLServer:Locks(_Total)\Number of Deadlocks/sec</CounterDisplayName>
+		<CounterDisplayName>\SQLServer:SQL Statistics\Batch Requests/sec</CounterDisplayName>
+		<CounterDisplayName>\SQLServer:SQL Statistics\SQL Compilations/sec</CounterDisplayName>
+		<CounterDisplayName>\SQLServer:SQL Statistics\SQL Re-Compilations/sec</CounterDisplayName>
+	</PerformanceCounterDataCollector>
+	<Schedule>
+		<StartDate>01/03/2009</StartDate>
+		<EndDate>
+		</EndDate>
+		<StartTime>12:05:00 AM</StartTime>
+		<Days>127</Days>
+	</Schedule>
+	<DataManager>
+		<Enabled>-1</Enabled>
+		<CheckBeforeRunning>-1</CheckBeforeRunning>
+		<MinFreeDisk>1024</MinFreeDisk>
+		<MaxSize>2048</MaxSize>
+		<MaxFolderCount>365</MaxFolderCount>
+		<ResourcePolicy>1</ResourcePolicy>
+		<ReportFileName>report.html</ReportFileName>
+		<RuleTargetFileName>report.xml</RuleTargetFileName>
+		<EventsFileName>
+		</EventsFileName>
+		<FolderAction>
+			<Size>0</Size>
+			<Age>99</Age>
+			<Actions>23</Actions>
+			<SendCabTo>D:\MSSQL_Baseline\PerfMon\MSSQL_perf\archive</SendCabTo>
+		</FolderAction>
+		<FolderAction>
+			<Size>0</Size>
+			<Age>365</Age>
+			<Actions>26</Actions>
+			<SendCabTo>
+			</SendCabTo>
+		</FolderAction>
+	</DataManager>
+</DataCollectorSet>
